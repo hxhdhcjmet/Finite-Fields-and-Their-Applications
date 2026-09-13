@@ -9,7 +9,7 @@ $  QQ(sqrt(2) + sqrt(3) ) = QQ(sqrt(2) ,sqrt(3)) $
 因此
 $ alpha = sqrt(2) + sqrt(3) in QQ(sqrt(2),sqrt(3)) $
 因为$QQ(alpha)$是包含$QQ$和$alpha$的最小子域，而现在有$QQ in QQ(sqrt(2),sqrt(3))$、$alpha in QQ(sqrt(2),sqrt(3))$，由最小性必然有:
-$ QQ(alpha ) subset.eq QQ(sqrt(2) + sqrt(3)) $
+$ QQ(alpha ) subset.eq QQ(sqrt(2) , sqrt(3)) $
 另一方面，由于
 $ (sqrt(3) - sqrt(2)) (sqrt(3) + sqrt(2) ) = 3-2=1 $
 因此$alpha^(-1) = (sqrt(3) - sqrt(2)) $ 且有$ alpha^(-1)in QQ(alpha)$。又由于
